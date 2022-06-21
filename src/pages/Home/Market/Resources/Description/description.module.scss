@@ -1,0 +1,134 @@
+.container {
+  padding: 10px 45px;
+  background: url(../../../../../assets/image/market/description.png) center
+    no-repeat;
+  background-size: 100% 100%;
+  margin: 10px 45px;
+  .descriptionTop {
+    background: url(../../../../../assets/image/market/bg-descriptiontop.png)
+      center no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .ratediv {
+      padding: 0 25px;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      .rate {
+        background-color: #6b330e;
+        border-radius: 6px;
+        padding: 0px 16px;
+        font-size: 32px;
+        color: #c76f14;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        border: 2px solid #040000;
+        margin: 10px 0;
+        span {
+          color: #ffffff;
+        }
+      }
+    }
+    .resource {
+      display: flex;
+      margin: 10px 0;
+
+      .resourceimage {
+        width: 70px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #131313;
+        border-radius: 6px;
+        padding: 10px;
+        margin: 0 10px;
+        overflow: hidden;
+        object-fit: cover;
+      }
+      p {
+        background: #131313;
+        border-radius: 6px;
+        width: 170px;
+        font-size: 32px;
+        color: #c76f14;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: right;
+        padding: 0 12px;
+      }
+    }
+  }
+  .descriptionBottom {
+    background: url(../../../../../assets/image/market/bg-descriptionbottom.png)
+      center no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .resource {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25%;
+      .resourceimage {
+        width: 145px;
+        height: 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #2b0909;
+        padding: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+        object-fit: cover;
+      }
+      input {
+        background: #2b0909;
+        border-radius: 6px;
+        width: 170px;
+        font-size: 32px;
+        color: #c76f14;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: right;
+        padding: 0 12px;
+        margin: 8px 0 0;
+        width: 100%;
+      }
+      input[type='number']::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        background-color: #6b330e;
+      }
+    }
+    .exchange {
+      margin: 10px 0;
+      padding: 0 40px;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      .swap {
+        font-size: 33px;
+        color: #ffffff;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        max-width: 187px;
+        min-height: 73px;
+        background: url(../../../../../assets/image/market/bg-swap.png) center
+          no-repeat;
+        background-size: 100% 100%;
+        vertical-align: center;
+        cursor: pointer;
+        padding: 10px 0;
+        margin: 5px 0 0;
+      }
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}

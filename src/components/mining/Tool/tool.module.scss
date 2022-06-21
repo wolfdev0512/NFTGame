@@ -1,0 +1,16 @@
+.container {
+  .tool {
+    width: 114px;
+    height: 100px;
+    background: url(../../../assets/image/mining/bg-SlotSingle.png) center
+      no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .cap {
+    margin: 8px auto;
+  }
+}

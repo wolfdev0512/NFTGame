@@ -1,0 +1,34 @@
+.container {
+  background: url(../../../assets/image/mining/bg-resources.png) center
+    no-repeat;
+  background-size: 100% 100%;
+  min-width: 449px;
+  width: 100%;
+  min-height: 347px;
+  padding: 24px 40px 0;
+  position: relative;
+  z-index: 30;
+
+  .title {
+    font-size: 25px !important;
+    color: #c76f14 !important;
+    font-weight: bold;
+    font-family: 'Mecha';
+    text-align: center;
+    margin: 10px 0 10px;
+  }
+  .content {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #250000;
+    padding: 0 8px;
+    p {
+      font-size: 30px !important;
+      color: #80849e;
+      font-weight: bold;
+      font-family: 'Mecha';
+    }
+  }
+}

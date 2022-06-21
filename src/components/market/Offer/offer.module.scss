@@ -1,0 +1,14 @@
+.container {
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  background: url(../../../assets/image/market/tradeselection.png) center
+    no-repeat;
+  background-size: 100% 100%;
+  max-width: 498px;
+  width: 100%;
+  min-height: 190px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

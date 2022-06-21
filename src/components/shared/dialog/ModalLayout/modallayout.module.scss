@@ -1,0 +1,28 @@
+.contain {
+  max-width: 1260px;
+  background: url(../../../../assets/image/home/main-bg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 883px;
+  position: relative;
+  margin: auto;
+  z-index: 10;
+  padding: 0 60px;
+  @media (max-width: 1400px) {
+    // transform: scale3d(0.6, 0.6, 1);
+    // transform-origin: center center;
+    // margin-top: -7%;
+  }
+  @media (min-width: 2200px) {
+    // transform: scale3d(1.2, 1.2, 1);
+    // transform-origin: center center;
+  }
+  .title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Mecha Bold';
+    margin: 0px 0px 45px 0;
+    padding-top: 25px;
+    color: #86604e;
+  }
+}

@@ -1,0 +1,43 @@
+.container {
+  background-color: #5e311d;
+  border-radius: 2px;
+  border-right: 3px solid #4a271d;
+  border-left: 3px solid #6f4f49;
+  border-bottom: 3px solid #4a271d;
+  border-top: 3px solid #6f4f49;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+  .buyitem {
+    width: 64px;
+    height: 64px;
+    border-radius: 6px;
+    border-right: 3px solid #462e2f;
+    border-top: 3px solid #6c5556;
+    border-bottom: 3px solid #462e2f;
+    border-left: 3px solid #6c5556;
+    margin: 2px 7px;
+    box-shadow: 0 0 0 3px #a40cb8;
+    padding: 6px;
+  }
+  .itemdes {
+    font-weight: bold;
+    font-family: 'Mecha';
+    p:nth-child(1) {
+      font-size: 26px;
+      line-height: 26px;
+      color: #cacbcf;
+    }
+    p:nth-child(2) {
+      font-size: 16px;
+      line-height: 16px;
+      color: #a40cb8;
+    }
+    p:nth-child(3) {
+      font-size: 17px;
+      line-height: 17px;
+      color: #ebb016;
+    }
+  }
+}

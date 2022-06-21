@@ -1,0 +1,26 @@
+.selectioncontent {
+  background: url(../../../../../assets/image/mining/border-resourcontent.png)
+    center no-repeat;
+  background-size: 100% 100%;
+  margin: 5px 0 10px;
+  padding: 14px 22px;
+  max-width: 481px;
+  width: 100%;
+  min-height: 307px;
+  .toolContaner {
+    overflow-y: auto;
+    padding: 4px;
+    border: 1px solid black;
+    max-height: 278px;
+    .tool {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #250000;
+      padding: 12px 0;
+      width: 100%;
+      height: 96px;
+      cursor: pointer;
+    }
+  }
+}

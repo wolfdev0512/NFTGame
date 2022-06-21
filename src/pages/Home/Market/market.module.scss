@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 64px 25px;
+  background: url(../../../assets/image/mining/bg-content.png) center no-repeat;
+  background-size: 100% 100%;
+  .resources {
+    width: 100%;
+    max-width: 479px;
+    min-height: 642px;
+    background: url(../../../assets/image/market/bg-selection1.png) center
+      no-repeat;
+    background-size: 100% 100%;
+    padding: 0 71px;
+    .title {
+      font-size: 42px;
+      color: #a75e23;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      margin: 20px 0 60px;
+    }
+    img {
+      margin: auto;
+    }
+    .content {
+      font-size: 32px;
+      color: #cd947d;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      line-height: 32px;
+      margin: 13px 0 0;
+    }
+    .trade {
+      font-size: 39px;
+      color: #ffffff;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      max-width: 286px;
+      width: 100%;
+      background: url(../../../assets/image/market/bg-trade.png) center
+        no-repeat;
+      background-size: 100%;
+      margin: 25px auto 0;
+      cursor: pointer;
+    }
+  }
+  .tools {
+    width: 100%;
+    max-width: 479px;
+    min-height: 642px;
+    background: url(../../../assets/image/market/bg-selection2.png) center
+      no-repeat;
+    background-size: 100% 100%;
+    padding: 0 40px;
+    .title {
+      font-size: 42px;
+      color: #a75e23;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      margin: 20px 0 60px;
+    }
+    img {
+      margin: auto;
+    }
+    .content {
+      font-size: 32px;
+      color: #cd947d;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      line-height: 32px;
+      margin: 13px 0 0;
+    }
+    .trade {
+      font-size: 39px;
+      color: #ffffff;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      max-width: 286px;
+      width: 100%;
+      background: url(../../../assets/image/market/bg-trade.png) center
+        no-repeat;
+      background-size: 100%;
+      margin: 25px auto 0;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  p {
+    font-size: 31px;
+    color: #c76f14;
+    font-weight: bold;
+    font-family: 'Mecha';
+    text-align: center;
+  }
+  .subcontainer {
+    max-width: 436px;
+    width: 100%;
+    min-height: 260px;
+    margin: auto;
+    background: url(../../../assets/image/mining/bg-ContainerSub.png) center
+      no-repeat;
+    padding: 26px 26px 15px;
+    margin-bottom: 16px;
+    background-size: 100% 100%;
+    .collectioninfo1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 8px;
+      background: #2b0909;
+      padding: 4px 10px;
+      width: 78%;
+      margin-top: 10px;
+
+      p {
+        font-size: 39px;
+        color: #80849e;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        line-height: 39px;
+      }
+    }
+    .collectioninfo2 {
+      font-size: 39px;
+      color: #921310;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: right;
+      background-color: #2b0909;
+      border-radius: 8px;
+      width: 21%;
+      margin-top: 10px;
+      line-height: 44px;
+      text-align: center;
+    }
+  }
+}

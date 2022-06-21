@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 20;
+  min-width: 529px;
+  min-height: 459px;
+  background: url(../../../../assets/image/mining/bg-ContainerMain.png) center
+    no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  @media (max-width: 1600px) {
+    transform: scale3d(0.6, 0.6, 1) translateX(-85%) translateY(-90%);
+  }
+}

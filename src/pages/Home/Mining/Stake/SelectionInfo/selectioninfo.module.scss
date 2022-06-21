@@ -1,0 +1,40 @@
+.selectioncontent {
+  background: url(../../../../../assets/image/mining/border-resourcontent.png)
+    center no-repeat;
+  background-size: 100% 100%;
+  margin: 5px 0 10px;
+  padding: 40px 0 30px;
+  .selectiondata {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .gatherhspeed {
+      width: 90%;
+    }
+    img {
+      position: absolute;
+      top: 11%;
+      left: 7%;
+    }
+    .inputdata2 {
+      background: #250000;
+      box-shadow: 2px 2px inset #180000, -2px -2px inset #330808;
+      border-radius: 8px;
+      border: 1px solid #794226;
+      font-size: 46px;
+      color: #c76f14;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+      width: 100%;
+    }
+
+    p {
+      font-size: 25px;
+      color: #dbdbdb;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: center;
+    }
+  }
+}

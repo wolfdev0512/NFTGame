@@ -1,0 +1,74 @@
+.container {
+  background: url(../../../assets/image/mining/bg-workerxp.png) center no-repeat;
+  background-size: 100% 100%;
+  min-width: 449px;
+  width: 100%;
+  min-height: 232px;
+  padding: 38px 50px 0;
+  position: relative;
+  z-index: 30;
+
+  .pregressbar {
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+    color: #fcf4ec;
+    font-weight: bold;
+    font-family: 'Mecha';
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    .progressbarBg {
+      height: 100%;
+      background: url(../../../assets/image/mining/progress.png) left repeat-x;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+  }
+  .title {
+    font-size: 25px;
+    color: #c76f14;
+    font-weight: bold;
+    font-family: 'Mecha';
+    text-align: center;
+    margin-top: 18px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    .content1 {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      p {
+        font-size: 20px;
+        color: #cd947d;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        &:nth-child(2) {
+          color: #c76f14;
+          width: 60%;
+        }
+      }
+    }
+    .content2 {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      p {
+        font-size: 20px;
+        color: #cd947d;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        &:nth-child(2) {
+          color: #c76f14;
+          width: 60%;
+        }
+      }
+    }
+  }
+}

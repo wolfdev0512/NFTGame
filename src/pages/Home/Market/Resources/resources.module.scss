@@ -1,0 +1,17 @@
+.container {
+  background: url(../../../../assets/image/mining/bg-content.png) center
+    no-repeat;
+  background-size: 100% 100%;
+  padding: 14px;
+  .resources {
+    background: url(../../../../assets/image/market/bg-resources.png) center
+      no-repeat;
+    background-size: 100% 100%;
+    min-height: 300px;
+    padding: 22px 18px 30px;
+    .resource {
+      border: 3px solid #c76f14;
+      border-radius: 6px;
+    }
+  }
+}

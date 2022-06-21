@@ -1,0 +1,90 @@
+.container {
+  background: url(../../../assets/image/mining/bg-Container1.png) no-repeat;
+  background-size: 100%;
+  display: flex;
+  padding: 9px 18px 9px 8px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  &:nth-child(even) {
+    background: url(../../../assets/image/mining/bg-Container2.png) no-repeat;
+    background-size: 100%;
+  }
+  .avatar {
+    background: url(../../../assets/image/mining/Icon-AvatarContainer.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71px;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:hover {
+      .workerxp {
+        display: block;
+      }
+    }
+    .workerxp {
+      display: none;
+      position: fixed;
+      left: 40%;
+      top: 40%;
+      z-index: 50;
+    }
+  }
+  .lazyworker {
+    flex-grow: 1;
+    margin: 0 30px 10px 10px;
+    position: relative;
+
+    p {
+      font-size: 18px;
+      font-family: 'Mecha Bold';
+      color: #80849e;
+    }
+    .inputdiv {
+      color: brown;
+      border-radius: -6px;
+      position: relative;
+      text-align: right;
+      color: #80849e;
+      font-size: 30px;
+      font-family: 'Mecha Bold';
+      padding: 0px;
+      line-height: 28px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: #250000;
+    }
+    .icon {
+      position: absolute;
+      top: 30px;
+      left: 4px;
+      cursor: pointer;
+    }
+    &:hover {
+      .resources {
+        display: block;
+      }
+    }
+    .resources {
+      display: none;
+      position: fixed;
+      left: 50%;
+      top: 35%;
+    }
+  }
+  .check {
+    width: 74px;
+    height: 56px;
+    background: url(../../../assets/image/mining/checkbox.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+  }
+}

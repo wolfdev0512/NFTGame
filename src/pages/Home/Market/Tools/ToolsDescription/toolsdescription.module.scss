@@ -1,0 +1,111 @@
+.resourceDescription {
+  background-color: #424140;
+  border-radius: 8px;
+  box-shadow: 0 0 2px #210707;
+  border-right: 2px solid #2b2b2b;
+  border-bottom: 2px solid #2b2b2b;
+  border-top: 2px solid #555453;
+  border-left: 2px solid #555453;
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  .itemDes {
+    padding: 10px 10px;
+    width: 55%;
+    border-right: 2px solid #1f1e1e;
+    .noSelect {
+      display: flex;
+      justify-content: center;
+      padding: 33px 0;
+      background: url(../../../../../assets/image/market/description.png) center
+        no-repeat;
+      background-size: 100% 100%;
+      border-right: 2px solid #2b2b2b;
+      border-bottom: 2px solid #2b2b2b;
+      border-top: 2px solid #555453;
+      border-left: 2px solid #555453;
+
+      p {
+        font-size: 22px;
+        color: #818181;
+        font-weight: bold;
+        padding: 0 12px;
+        background: #2b2b2b;
+        border-radius: 8px;
+        box-shadow: 2px 2px inset #161515, -2px -2px #393636;
+      }
+    }
+  }
+  .prices {
+    width: 65%;
+    margin: 0 10px 0 0;
+    border-radius: 4px;
+    border-right: 2px solid #2b2b2b;
+    border-top: 2px solid #555453;
+    border-bottom: 2px solid #2b2b2b;
+    border-left: 2px solid #555453;
+    padding: 10px;
+
+    p {
+      font-size: 14px;
+      font-weight: bold;
+      color: white;
+    }
+    input {
+      background: #0b0b0b;
+      border-radius: 6px;
+      font-size: 14px;
+      text-align: right;
+      width: 100%;
+      padding: 0 10px;
+      &:nth-child(1) {
+        text-align: right;
+      }
+    }
+    input[type='number']::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+  .action {
+  }
+  .noSelected {
+    color: #938b8b;
+    border-right: 2px solid #2b2b2b;
+    border-top: 2px solid #555453;
+    border-bottom: 2px solid #2b2b2b;
+    border-left: 2px solid #555453;
+    padding: 50px 0;
+    border-radius: 10px;
+    width: 34%;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .sell {
+    color: #ffffff;
+    background-color: #ef722d;
+    border-right: 2px solid #200404;
+    border-top: 2px solid #f0a952;
+    border-bottom: 2px solid #200404;
+    border-left: 2px solid #f0a952;
+    cursor: pointer;
+  }
+  .buy {
+    color: #ffffff;
+    background-color: #3d9618;
+    border-right: 2px solid #267703;
+    border-top: 2px solid #69c442;
+    border-bottom: 2px solid #267703;
+    border-left: 2px solid #69c442;
+    cursor: pointer;
+  }
+}
+.confirm {
+  font-size: 46px;
+  font-family: 'Mecha Bold';
+  text-align: center;
+  line-height: 46px;
+  width: 60%;
+  margin: auto;
+}

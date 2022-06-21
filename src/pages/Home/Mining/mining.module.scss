@@ -1,0 +1,146 @@
+.content {
+  display: flex;
+  justify-content: center;
+  background: url(../../../assets/image/mining/bg-content.png);
+  background-size: 100% 100%;
+  padding: 15px 0;
+  .indicontent {
+    max-width: 531px;
+    width: 100%;
+    // background: url(../../../assets/image/mining/bg-Table.png) no-repeat;
+    background-size: 100% 100%;
+    min-height: 650px;
+    // padding: 10px 12px 0px;
+    margin: 0 8px;
+    .tabheader {
+      display: flex;
+      justify-content: center;
+      padding: 0 2px;
+      margin: 0 0 4px;
+      p {
+        font-size: 27px;
+        font-family: 'Mecha Bold';
+        color: #8084a0;
+        text-align: center;
+        cursor: pointer;
+        height: 50px;
+        &:nth-child(1) {
+          // background: url(../../../assets/image/mining/bg-WorkingInactive.png);
+          // background-size: 100% 100%;
+          background: #30180e;
+          border: 1px solid #221008;
+          width: 46%;
+        }
+
+        &:nth-child(2) {
+          background: #30180e;
+          border: 1px solid #221008;
+          width: 54%;
+        }
+      }
+
+      .active {
+        background: #68351e !important;
+        border-right: 2px solid #7a442c !important;
+        border-left: 2px solid #462010 !important;
+        border-top: 2px solid #7a442c !important;
+        border-bottom: 2px solid #462010 !important;
+        color: #ebebed !important;
+      }
+    }
+    .tabcontent {
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 576px;
+      padding: 4px;
+      border-radius: 4px;
+      background-color: #250000;
+    }
+    .tabright {
+      padding: 18px;
+      .stats {
+        background: url(../../../assets/image/mining/bg-stats.png) center
+          no-repeat;
+        background-size: 100% 100%;
+        font-size: 38px;
+        color: #dbdbdb;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        padding: 6px;
+      }
+      .resourcecontent {
+        background: url(../../../assets/image/mining/border-resourcontent.png)
+          center no-repeat;
+        background-size: 100% 100%;
+        padding: 5px 30px 0;
+        margin: 5px 0 45px;
+        .number {
+          background: #250000;
+          border-radius: 8px;
+          border: 1px solid #794226;
+          font-size: 46px;
+          color: #c76f14;
+          font-weight: bold;
+          font-family: 'Mecha';
+          text-align: center;
+          margin-top: 23px;
+          box-shadow: 2px 2px inset #180000, -2px -2px inset #330808;
+        }
+        p {
+          font-size: 32px;
+          color: #adadad;
+          font-weight: bold;
+          font-family: 'Mecha';
+          text-align: center;
+          padding-bottom: 14px;
+        }
+      }
+      .selectioncontent {
+        background: url(../../../assets/image/mining/border-resourcontent.png)
+          center no-repeat;
+        background-size: 100% 100%;
+        margin: 5px 0 10px;
+        padding: 40px 0 30px;
+        .selectiondata {
+          display: flex;
+          justify-content: center;
+          position: relative;
+
+          img {
+            position: absolute;
+            top: 11%;
+            left: 7%;
+          }
+          input {
+            background: #250000;
+            border-radius: 8px;
+            border: 1px solid #794226;
+            font-size: 46px;
+            color: #c76f14;
+            font-weight: bold;
+            font-family: 'Mecha';
+            text-align: center;
+            width: 100%;
+          }
+          p {
+            font-size: 25px;
+            color: #dbdbdb;
+            font-weight: bold;
+            font-family: 'Mecha';
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.confirm {
+  font-size: 46px;
+  font-family: 'Mecha Bold';
+  text-align: center;
+  line-height: 46px;
+  width: 60%;
+  margin: auto;
+}

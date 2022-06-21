@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  .character {
+    width: 48%;
+  }
+  .description {
+    width: 48%;
+    background: url(../../../../assets/image/mining/bg-content.png) center
+      no-repeat;
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .des {
+      padding: 30px 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .des1 {
+        margin: 20px 0 0;
+        .number {
+          border-radius: 6px;
+          background-color: #2b0909;
+          box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+          border-bottom: 2px solid #7a442c;
+          border-top: 2px solid #46200f;
+          padding: 11px 13px;
+          font-size: 32px;
+          line-height: 24px;
+          font-weight: bold;
+          display: flex;
+          justify-content: space-between;
+          p:nth-child(1) {
+            color: #643538;
+          }
+          p:nth-child(2) {
+            color: #c76f14;
+          }
+        }
+        .title {
+          line-height: 24px;
+          font-size: 32px;
+          color: #b69c82;
+          font-weight: bold;
+          font-family: 'Mecha';
+          text-align: center;
+          margin: 16px 0 0;
+        }
+      }
+      .progress {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        P {
+          font-size: 32px;
+          color: #b69c82;
+          font-weight: bold;
+          font-family: 'Mecha';
+          text-align: center;
+          &:nth-child(2) {
+            width: 140px;
+            border-radius: 6px;
+            background-color: #2b0909;
+            box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+            border-bottom: 2px solid #7a442c;
+            border-top: 2px solid #46200f;
+            color: #c76f14;
+          }
+          &:nth-child(4) {
+            width: 140px;
+            border-radius: 6px;
+            background-color: #2b0909;
+            box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+            border-bottom: 2px solid #7a442c;
+            border-top: 2px solid #46200f;
+            color: #c76f14;
+          }
+        }
+      }
+      .progressbar {
+        margin: 18px 0 11px;
+        background-color: #2b0909;
+        box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+        padding: 6px;
+        border-radius: 6px;
+      }
+    }
+  }
+}

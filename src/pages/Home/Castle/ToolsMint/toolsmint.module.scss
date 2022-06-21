@@ -1,0 +1,177 @@
+.character {
+  // width: 27%;
+  .toolout {
+    background-color: #1d0000;
+    padding: 10px;
+    .toolinside {
+      width: 322px;
+      height: 322px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        object-fit: contain;
+        width: 280px;
+        height: 280px;
+      }
+    }
+  }
+  .toolname {
+    background: url(../../../../assets/image/castle/toolname.png) center
+      no-repeat;
+    background-size: 100% 100%;
+    padding: 16px 0;
+    font-size: 35px;
+    color: #111010;
+    font-weight: bold;
+    font-family: 'Mecha';
+    text-align: center;
+    line-height: 25px;
+    text-transform: uppercase;
+  }
+  .toolselection {
+    background-color: #250000;
+    border-radius: 6px;
+    border: 1px solid #82482e;
+    box-shadow: 0 0 0 1px #442010;
+    padding: 3px;
+    margin: 10px 0 0;
+
+    .tooltype {
+      background-color: #542b19;
+      border-radius: 6px;
+      margin: 2px;
+      .toolindi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 42px;
+        background-color: #30180e;
+        border: 1px solid #221008;
+        cursor: pointer;
+      }
+      .active {
+        background-color: #5e311d;
+        box-shadow: 3px inset #82482e, -3px inset #30180e;
+      }
+    }
+    .sort {
+      padding: 2px;
+      margin: 4px;
+      .sortindi {
+        background-color: #30180e;
+        border: 1px solid #492719;
+
+        cursor: pointer;
+        p {
+          text-transform: uppercase;
+          color: #c76f14;
+          font-weight: bold;
+          font-family: 'Mecha';
+          text-align: center;
+          line-height: 44px;
+          font-size: 27px;
+        }
+      }
+      .active {
+        border-top: 2px solid #6f4f49;
+        border-left: 2px solid #6f4f49;
+        border-bottom: 0;
+        border-right: 0;
+        background-color: #5e311d;
+      }
+    }
+  }
+}
+
+.balance {
+  width: 70%;
+  background: url(../../../../assets/image/mining/bg-content.png) center
+    no-repeat;
+  padding: 15px;
+  .title {
+    font-size: 30px;
+    color: #c76f14;
+    font-weight: bold;
+    font-family: 'Mecha';
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    P {
+      text-align: center;
+      width: 220px;
+      margin: 0 -20px 0 80px;
+    }
+  }
+  .info {
+    .brand {
+      width: 76px;
+      height: 54px;
+      padding: 5px 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2b0909;
+      box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+      border-radius: 9px;
+      img {
+        object-fit: contain;
+        width: 64px;
+        height: 44px;
+      }
+    }
+    p {
+      width: 40%;
+      font-size: 33px;
+      color: #c76f14;
+      font-weight: bold;
+      font-family: 'Mecha';
+      text-align: right;
+      background-color: #2b0909;
+      box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+      border-radius: 9px;
+      padding: 0 10px;
+    }
+  }
+  .des {
+    width: 70%;
+    margin: auto;
+    .progress {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      P {
+        font-size: 32px;
+        color: #b69c82;
+        font-weight: bold;
+        font-family: 'Mecha';
+        text-align: center;
+        &:nth-child(2) {
+          width: 140px;
+          border-radius: 6px;
+          background-color: #2b0909;
+          box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+          border-bottom: 2px solid #7a442c;
+          border-top: 2px solid #46200f;
+          color: #c76f14;
+        }
+        &:nth-child(4) {
+          width: 140px;
+          border-radius: 6px;
+          background-color: #2b0909;
+          box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+          border-bottom: 2px solid #7a442c;
+          border-top: 2px solid #46200f;
+          color: #c76f14;
+        }
+      }
+    }
+    .progressbar {
+      margin: 18px 0 11px;
+      background-color: #2b0909;
+      box-shadow: 3px 3px inset #1e0606, -3px -3px inset #350c0c;
+      padding: 6px;
+      border-radius: 6px;
+    }
+  }
+}

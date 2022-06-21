@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mecha";
+  src: local("Mecha"), url("./assets/fonts/Mecha.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mecha Bold";
+  src: local("Mecha Bold"), url("./assets/fonts/Mecha_Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Mecha Condensed";
+  src: local("Mecha Condensed"), url("./assets/fonts/Mecha_Condensed.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mecha Condensed Bold";
+  src: local("Mecha Condensed Bold"), url("./assets/fonts/Mecha_Condensed_Bold.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "Mecha";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/image/home/map-bg.gif) center no-repeat;
+  background-size: 100% 100%;
+  background-color: #000000;
+  color: white;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width:700px) {
+  body {
+    background-image: none;
+    background-color: #000000;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 22px;
+  background: #260202;
+  border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-button {
+  width: 20px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  cursor: pointer;
+  background: url(./assets/image/home/arrow-up.png) center no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  cursor: pointer;
+  background: url(./assets/image/home/arrow-down.png) center no-repeat;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #564040;
+  width: 18px;
+  cursor: pointer;
+  border: 2px solid #260202;
+
+}
+
+
+input:focus {
+  outline: none;
+}
+
+.color-cyan {
+  color: #00EBFF;
+}
+
+.color-pink {
+  color: #EF428C;
+}
+
+.color-gray {
+  color: #ECECEC;
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1920px !important;
+    margin: auto;
+  }
+}

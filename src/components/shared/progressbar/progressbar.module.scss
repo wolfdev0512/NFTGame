@@ -1,0 +1,25 @@
+.pregressbar {
+  width: 90%;
+  text-align: center;
+  font-size: 25px;
+  color: #fcf4ec;
+  font-weight: bold;
+  font-family: 'Mecha';
+  line-height: 25px;
+  height: 25px;
+  position: relative;
+  .progressbarBg {
+    background: url(../../../assets/image/mining/progress.png) left repeat-x;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  P {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
